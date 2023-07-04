@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+.container .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=/main08.1a69ff84.css.map */

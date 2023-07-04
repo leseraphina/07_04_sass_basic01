@@ -1,0 +1,28 @@
+@mixin center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+}
+
+@function ration($size,$ration){
+  @return $size * $ration;
+}
+
+$width: 100px;
+$color:orange;
+
+.box{
+  width:$width;
+  height:ration($width, 1/2);
+  @include center;
+  background-color:$color;
+}
+.box01{
+  $width:200px;
+  $color:pink;
+  width:$width;
+  height:ration($width,1/5 );
+  @include center;
+  background-color:$color;
+}

@@ -1,0 +1,25 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+/*# sourceMappingURL=/main09.f70f71dd.css.map */

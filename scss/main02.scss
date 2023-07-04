@@ -1,0 +1,9 @@
+//  & -> 상위선택자
+.no{
+  background-color:#000;
+  &_01{color:red;}
+  &_02{color:orange;}
+  &:hover{
+    background-color:pink;
+  }
+}

@@ -1,0 +1,18 @@
+$size:200px;
+$color-orange:orange;
+$font:30px;
+
+.container{
+  // width:400px;
+  width:$size * 2 ;
+  background-color:$color-orange;
+  padding:200px;
+  .item{
+    $size:300px;
+    width:$size;
+    height:$size;
+    color:green;
+    font-size:$font;
+    background-color:#fff;
+  }
+}

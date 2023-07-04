@@ -1,0 +1,30 @@
+@mixin center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin size($data){
+  width:$data;
+  height:$data;
+}
+
+$color-orange:orange;
+
+.container{
+  @include center;
+  @include size(200px);
+  background-color: $color-orange;
+  // width:200px;
+  // height:200px;
+  .item{
+    @include center;
+    @include size(100px);
+    background-color:yellow;
+  }
+}
+
+.box{
+  @include size(100px);
+  background-color:green;
+}

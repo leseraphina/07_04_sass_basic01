@@ -1,0 +1,21 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  left: 300px;
+  padding: 50px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=/main10.e1c50758.css.map */

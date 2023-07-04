@@ -1,0 +1,25 @@
+@mixin center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin box($size:100px,$color:orange){
+  width:$size;
+  height: $size;
+  background-color: $color;
+}
+
+.container{
+  @include box(200px, red);
+  @include center;
+  margin-bottom:50px;
+  .item{
+    @include center;
+    @include box($color: yellow)
+  }
+}
+.box{
+  @include box;
+}
+//  16 - 26

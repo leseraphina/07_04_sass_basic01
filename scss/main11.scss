@@ -1,0 +1,15 @@
+// .box{
+//   width:100px;
+//   height:100px;
+//   background-color:orange;
+//   margin-bottom:50px;
+// }
+
+@for $i from 1 through 7{
+  .box:nth-child(#{$i}){
+    width:100px * $i;
+    height:(100px / $i);
+    background-color:orange;
+    margin-bottom:50px;
+  }
+}

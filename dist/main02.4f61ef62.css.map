@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\main02.scss"],"names":[],"mappings":"AACA;EACE;;AACA;EAAK;;AACL;EAAK;;AACL;EACE","file":"main02.4f61ef62.css","sourceRoot":"..","sourcesContent":["//  & -> 상위선택자\r\n.no{\r\n  background-color:#000;\r\n  &_01{color:red;}\r\n  &_02{color:orange;}\r\n  &:hover{\r\n    background-color:pink;\r\n  }\r\n}"]}

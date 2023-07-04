@@ -1,0 +1,50 @@
+.box:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(2) {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(3) {
+  width: 300px;
+  height: 33.3333333333px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(4) {
+  width: 400px;
+  height: 25px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(5) {
+  width: 500px;
+  height: 20px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(6) {
+  width: 600px;
+  height: 16.6666666667px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+.box:nth-child(7) {
+  width: 700px;
+  height: 14.2857142857px;
+  background-color: orange;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=/main11.279f644b.css.map */
